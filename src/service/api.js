@@ -2,11 +2,11 @@ import { apis } from "service";
 
 const COMMON_URL = `https://`;
 
-const TWILIO_TOKEN = "Basic Enter the Twilio api Token here";
-const TWILIO_ACCOUNT_SID = "Enter Twilio account SID here";
-const MARKET_DATA_TOKEN = "Bearer Enter lemon.markets market data API token here";
+const TWILIO_TOKEN = "5accc4e45c819925714b348195dc3e39";
+const TWILIO_ACCOUNT_SID = "ACd937cd486b20417fab982ab40057b719";
+const MARKET_DATA_TOKEN = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJsZW1vbi5tYXJrZXRzIiwiaXNzIjoibGVtb24ubWFya2V0cyIsInN1YiI6InVzcl9yeURYWWxsRERUbHJLUTdtNE5ENVltUjBobmdyd1Zmck5DIiwiZXhwIjoxNzA4Mjg0NTk0LCJpYXQiOjE2NzY3NDg1OTQsImp0aSI6ImFwa19yeURYWWxsR0d5RmdXU2JXZldxVGtoczNkWVF6RGtkcUNOIiwibW9kZSI6InBhcGVyIn0.m5rem9XTx3P3PGo-8wN_G4x7Qe38qqbMGkn1ocxi32Y";
 const PAPER_TRADING_TOKEN =
-  "Bearer Enter lemon.markets paper trading API token here";
+  "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJsZW1vbi5tYXJrZXRzIiwiaXNzIjoibGVtb24ubWFya2V0cyIsInN1YiI6InVzcl9yeURYWWxsRERUbHJLUTdtNE5ENVltUjBobmdyd1Zmck5DIiwiZXhwIjoxNzA4Mjg0NTk0LCJpYXQiOjE2NzY3NDg1OTQsImp0aSI6ImFwa19yeURYWWxsR0dQajlNOVZHSnpIMXo2cDFNUVpLZFdxcnJUIiwibW9kZSI6InBhcGVyIn0.7FN-HLKA2XaWReN9S44z_cYvtnNl0VVWHVzKakIsSIM";
 
 const API_URLS = {
   POST_MESSAGES: `${COMMON_URL}api.twilio.com/2010-04-01/Accounts/${TWILIO_ACCOUNT_SID}/Messages`,
